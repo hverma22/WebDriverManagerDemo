@@ -38,6 +38,24 @@ public class WebDriverManagerDemo {
 		System.out.println("Page Title is: " + titleString);
 
 	}
+	
+	@Test
+	public void webDriverManagerTest1() {
+
+		driver.get(System.getProperty("url"));
+		String titleString = driver.getTitle();
+		System.out.println("Page Title is: " + titleString);
+
+	}
+	
+	@Test
+	public void webDriverManagerTest3() {
+
+		driver.get(System.getProperty("url"));
+		String titleString = driver.getTitle();
+		System.out.println("Page Title is: " + titleString);
+
+	}
 
 	@AfterMethod
 	public void tearDown() {
